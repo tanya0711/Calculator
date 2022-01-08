@@ -14,8 +14,8 @@ while calci == True:
         while operation == True:
             z =  input("Enter the operation. s for sum, o for subtraction, m for multiplication, d for division, r for square root, p for power, i for sin, and c for cos \n")
             if z == "s" or z == "o" or z == "m" or z == "d" or z == "p":         #since they need two numbers from the user
-                x = int(input("Enter first number: "))
-                y = int(input("Enter second number: "))
+                x = int(input("Enter first number: "))                           #first input from user
+                y = int(input("Enter second number: "))                          #second input from user
                 sum = x + y             #adds the two numbers
                 sub = x - y             # subtracts second number from first number
                 mul = x * y             # multiply the two numbers
