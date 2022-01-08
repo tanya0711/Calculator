@@ -1,1 +1,20 @@
 
+
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
+sum = x + y
+sub = x - y
+mul = x * y
+div = x / y
+z =  input("Enter the operation. + for sum, - for subtraction, * for multiplication, and / for division")
+
+if z == +:
+    print(sum)
+elif z== -:
+    print(sub)
+elif z== *:
+    print(mul)
+elif z== /:
+    print(div)
+else:
+    print("Please enter valid choice")
